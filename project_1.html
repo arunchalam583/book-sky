@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BookSky</title>
+	<link rel="stylesheet" href="project_1.css">
+</head>
+
+<body id="link">
+	<div class="heading">
+		<h1>Booksky</h1>
+	</div>
+
+	<div class="container">
+	<div class="dashboard">
+		<h2 class="dashboard-heading" >Welcome</h2>
+		<h5 class="dashboard-author">Arunachalam J</h5>
+		<p class="dashboard-para">Welcome to a new way to capture, organize, and retrieve your thoughts. Book Sky is a streamlined, user-friendly note-taking application designed to help you declutter your mind and boost productivity.</p>
+		<button class="dashboard-button" style="cursor: pointer"; onclick="delbut(event)">Delete</button>
+	</div>
+	</div>
+
+	<button class="add-button" style="cursor: pointer;" id="script-add-button">+</button>
+
+	<div class="bg-shadow"></div>
+	<div class="add-dash">
+		<h2>Add Book</h2>
+		<input class="book-title" placeholder="Book Title" id="script-book-title">
+		<input class="book-author" placeholder="Book Author" id="script-book-author">
+		<textarea class="description" placeholder="Short Description" id="script-description"></textarea>
+		<button class="add-button-dash" style="cursor: pointer;" id="script-add-button-dash">ADD</button>
+		<button class="delete-button" style="cursor: pointer;" id="script-delete-button" onclick="clearbox()">CLEAR</button>
+		<button class="cancel-button" style="cursor: pointer;" id="can">X</button>
+
+	</div>
+
+<script src="project_1.js"></script>
+</body>
+</html>
